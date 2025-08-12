@@ -60,30 +60,5 @@ A full-stack simulation of a smart manufacturing factory built entirely with ope
 
 ---
 
-##  Screenshots
-
-| Panel | Screenshot |
-|-------|------------|
-| CNC Dashboard | ![CNC](assets/cnc-panel.png) |
-| Press Panel   | ![Press](assets/press-panel.png) |
-| Packaging Panel | ![Packaging](assets/packaging-panel.png) |
-| Email Alert | ![Alert](assets/email-alert.png) |
-
-
-
----
-
-##  Setup & Deployment (Docker)
-
-```bash
-git clone https://github.com/2002-shashank/digital-twin-factory.git
-cd digital-twin-factory
-docker-compose up
-
-In separte Terminals:
-cd simulator
-python3 factory_simulator.py
-python3 mqtt_to_influx.py
-
 
 
